@@ -60,6 +60,7 @@ backend/hypnotoad.pid
 .vscode/
 *.sublime-project
 *.sublime-workspace
+tags
 
 # -------------------------------
 # OS-specific
