@@ -1,0 +1,68 @@
+# -------------------------------
+# Node / Svelte
+# -------------------------------
+frontend/node_modules/
+frontend/public/build/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.svelte-kit/
+frontend/.vite/
+frontend/.DS_Store
+# SvelteKit output (SSR)
+frontend/.vercel_build_output/
+frontend/output/
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+# Environment files
+frontend/.env
+frontend/.env.*
+frontend/!.env.example
+
+# -------------------------------
+# Perl + Mojolicious + Carton
+# -------------------------------
+# Carton local libraries
+backend/local/
+backend/.carton/
+# Perl build/test files
+backend/blib/
+backend/Makefile
+backend/Makefile.old
+backend/Build
+backend/Build.bat
+backend/_build/
+backend/
+backend/# Perl temporary files
+backend/cover_db/
+backend/nytprof.out
+backend/nytprof/
+backend/*.o
+backend/*.bs
+backend/*.bak
+backend/*.swp
+backend/*.swo
+backend/*.tmp
+backend/*.log
+# Mojolicious generated files
+backend/tmp/
+backend/mojo.tmp/
+backend/hypnotoad.pid
+
+# -------------------------------
+# IDE / Editor files
+# -------------------------------
+*.iml
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+.DS_Store
+Thumbs.db
