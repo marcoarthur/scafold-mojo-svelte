@@ -35,7 +35,6 @@ backend/Makefile.old
 backend/Build
 backend/Build.bat
 backend/_build/
-backend/
 backend/# Perl temporary files
 backend/cover_db/
 backend/nytprof.out
