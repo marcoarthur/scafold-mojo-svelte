@@ -16,6 +16,7 @@ This template provides a minimal yet practical starting point for building moder
 
 ## 📂 Project Structure
 
+```markdown
 .
 ├── backend/          # Mojolicious app (Perl)
 │   ├── lib/          # Perl modules
@@ -27,6 +28,7 @@ This template provides a minimal yet practical starting point for building moder
 ├── public/       # Static assets
 └── package.json  # Frontend dependencies
 
+```
 
 ---
 
